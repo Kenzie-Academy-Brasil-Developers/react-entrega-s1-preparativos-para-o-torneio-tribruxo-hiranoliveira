@@ -1,0 +1,86 @@
+.App {
+  background-color: #000;
+}
+body {
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  margin: 30px;
+  width: 150px;
+  height: 50px;
+}
+
+.button {
+  border-top: 1px solid #ffffff;
+  background: #ffffff;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ffffff),
+    to(#ffffff)
+  );
+  background: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background: -o-linear-gradient(top, #ffffff, #ffffff);
+  padding: 5px 10px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  color: #000000;
+  font-size: 14px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+.button:hover {
+  border-top-color: #000000;
+  background: #000000;
+  color: #ccc;
+}
+.button:active {
+  border-top-color: #000000;
+  background: #000000;
+}
+
+@media only screen and (min-width: 980px) {
+  #root {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .App {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #divBotao {
+    width: 100%;
+  }
+}

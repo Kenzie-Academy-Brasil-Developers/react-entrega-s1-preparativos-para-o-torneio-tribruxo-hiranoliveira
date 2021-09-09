@@ -1,0 +1,29 @@
+div {
+  width: 300px;
+  margin: 20px 0;
+  color: #fff;
+  padding-top: 5px;
+}
+
+img {
+  height: 250px;
+  width: 180px;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.grif {
+  border: 10px solid red;
+}
+
+.slyth {
+  border: 10px solid green;
+}
+
+.huff {
+  border: 10px solid yellow;
+}
+
+.raven {
+  border: 10px solid purple;
+}
